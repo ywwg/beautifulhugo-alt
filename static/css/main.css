@@ -145,6 +145,7 @@ img {
   text-transform: uppercase;
   font-size: 12px;
   letter-spacing: 1px;
+  padding: 15px 10px 15px 10px;
 }
 
 .navbar-custom .navbar-brand,
@@ -257,8 +258,8 @@ img {
 }
 .navbar-custom .nav .navlinks-container .navlinks-children a {
   display: block;
-  padding: 10px;
-  padding-left: 30px;
+  padding: 5px;
+  padding-left: 20px;
   background: #f5f5f5;
   text-decoration: none !important;
   border-width: 0 1px 1px 1px;
@@ -286,7 +287,7 @@ img {
     position: absolute;
   }
   .navbar-custom .nav .navlinks-container .navlinks-children a {
-    padding-left: 10px;
+    padding-left: 5px;
     border: 1px solid #eaeaea;
     border-width: 0 1px 1px;
   }
@@ -518,6 +519,9 @@ footer .theme-by {
 .intro-header .post-heading h1 {
   margin-top: 0;
   font-size: 35px;
+}
+.intro-header .category-heading h1 {
+  text-align: center;
 }
 .intro-header .page-heading .page-subheading,
 .intro-header .post-heading .post-subheading {
